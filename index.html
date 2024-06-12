@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Blog website</title>
+</head>
+<body>
+    <div class="body-img">
+
+        <!--header container-->
+        <header class="d-flex flex-row">
+            <div class="d-flex flex-row">
+                <h1 class="title"><span style="color:white"> S</span>coop<span style="color:white">S</span>pot<span style="font-size:20px">.com</span></h1>
+            </div>
+        </header>
+
+        <!--background home image-->
+        <div id="section_1" class="menu-buttons-nav d-flex flex-row justify-content-center">
+            <button class="menu bi bi-list"></button>
+            <a href="#home" class=" active menu-buttons">Home</a>
+            <a href="#travel" class="menu-buttons">Travel</a>
+            <a href="#beauty" class="menu-buttons">Beauty</a>
+            <a href="#music" class="menu-buttons">Music</a>
+            <a href="#contact" class="menu-buttons">Contact</a>
+            <div class="d-flex flex-row justify-content-end">
+                <button class="signin_button bi bi-person" ><span> </span>signin</button>
+            </div>
+        </div>
+        <div>
+
+        <!--searchbar-->
+            <form action="https://www.google.com/search" method="get" class="searchbar">
+                <button type="submit" class="search-icon bi bi-search"></button>
+                <input style="font-family:Arial, Helvetica, sans-serif;" text="text" placeholder="Search.." name="text">
+            </form>
+        </div>
+
+        <!--text and reading button-->
+        <div class="d-flex flex-row">
+            <div class="home-text">
+                <p style="color:white; font-size:20px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; letter-spacing:30px; font-weight:normal 2px;">DISCOVER</p>
+                <p style="color:white; font-family:Arial, Helvetica, sans-serif; font-size:5vh; width:40vh; font-weight:bold;">Your Hub for all things interesting. &<br><span style="font-size:30px; color:yellow;outline:1px;">"THE EVERYTHING"</span></p>
+                <button class="continue-reading-button">Continue reading</button>
+            </div>
+
+            <!--image gallery-->
+            <div class="gallery-wrap">
+                <div class="gallery glass">
+                    <div>
+                        <span><img src="https://i.pinimg.com/564x/97/17/41/9717416966dfd51e8187bf37031bbdff.jpg" alt="lifestyle"></span>
+                        
+                        <span><img src="https://i.pinimg.com/564x/1e/4b/3d/1e4b3d143f03ee9f97489bb887131623.jpg" alt="travel"></span>
+                        <span><img src="https://i.pinimg.com/564x/7f/c5/53/7fc553e9c46c594b70e6dc979392404c.jpg" alt="beauty"></span>
+                    </div>
+                    <div>
+                        <span><img src="https://i.pinimg.com/736x/a2/34/01/a23401ce450185932216b91da79b7b21.jpg" alt="music"></span>
+                        <span><img src="https://i.pinimg.com/564x/38/ec/33/38ec33dcc214c24122e30f2194d73bb1.jpg" alt="art"></span>
+                        <span><img src="https://i.pinimg.com/564x/eb/ce/bc/ebcebc6e988f30e7990ff6c3480dcbec.jpg" alt="photigraphy"></span>
+                    </div>
+                </div>
+            </div>
+            <!--social media icons--> 
+            <div class="d-flex flex-column">
+                <button class="social-icons bi bi-facebook"></button>
+                <button class="social-icons bi bi-whatsapp"></button>
+                <button class="social-icons bi bi-linkedin"></button>
+                <button class="social-icons bi bi-envelope"></button>
+            </div>
+        </div>
+
+<!--2nd container(ART blogs)-->
+        <div style="background-color:#EDECEA; padding:10px">
+            <h1 class="headings">Updated topics</h1>
+        </div>
+        <div class="white-container  d-flex flex-row">
+            <!--ART container-->
+            <div class=" cont-as-1 d-flex flex-column">
+                <h1 class="sub-head">ART</h1>
+                <p class="para">It provides information about arts and recent updates.</p>
+                <div class=" d-flex flex-row">
+                    <button class="like bi bi-heart">150</button>
+                    <button class="like bi bi-chat-quote" style="margin:0"> 15</button>
+                </div>
+            </div>
+            <!--LIFESTYLE container-->
+            <div class=" cont-as-1 d-flex flex-column">
+                <h1 class="sub-head">LIFESTYLE</h1>
+                <p class="para">It provides information about lifestyle and recent updates.</p>
+                <div class=" d-flex flex-row">
+                    <button class="like bi bi-heart">150</button>
+                    <button class="like bi bi-chat-quote" style="margin:0"> 15</button>
+                </div>
+            </div>
+            <!--PHOTOGRAPHY container-->
+            <div class=" cont-as-1 d-flex flex-column">
+                <h1 class="sub-head">PHOTOGRAPHY</h1>
+                <p class="para">It provides information about photography and recent updates.</p>
+                <div class=" d-flex flex-row">
+                    <button class="like bi bi-heart">150</button>
+                    <button class="like bi bi-chat-quote" style="margin:0"> 15</button>
+                </div>
+            </div>
+            <!--MUSIC container-->
+            <div class=" cont-as-1 d-flex flex-column">
+                <h1 class="sub-head">MUSIC</h1>
+                <p class="para">It provides information about music and recent updates.</p>
+                <div class=" d-flex flex-row">
+                    <button class="like bi bi-heart">150</button>
+                    <button class="like bi bi-chat-quote" style="margin:0"> 15</button>
+                </div>
+            </div>
+        </div>
+
+<!--trending topic layout-->
+        <div style="background-color:#EDECEA; padding:10px">
+            <h1 class="headings" style="font-size:20px;text-decoration:underline;">Trending Topics</h1>
+        </div>
+        <div class="white-container d-flex flex-row justify-content-start" style="overflow:hidden;">
+            <!--technology container-->
+            <div class=" cont-as-3 d-flex flex-column">
+                <h1 class="sub-head">TECHNOLOGY</h1>
+                <p class="para-layout">Iron Power: Revolutionizing Batteries With Earth’s Most Abundant Metal.<br>"Economic and Environmental Benefits of Iron-Based Cathodes"</p>
+                <div class=" d-flex flex-row">
+                    <button class="like bi bi-heart">150</button>
+                    <button class="like bi bi-chat-quote" style="margin:0"> 15</button>
+                </div>
+            </div>
+            <!--fitness container-->
+            <div class="sport cont-as-3 d-flex flex-column" style="width:50vh; height:50vh">
+                <h1 class="sub-head" style="color:white; opacity:1">FITNESS</h1>
+                <p class="para" style="position:relative;margin-top:30vh; color:white;">It provides information about fitness and gym trainings updates.</p>
+                <div class=" d-flex flex-row">
+                    <button class="like bi bi-heart" style="color:white;">150</button>
+                    <button class="like bi bi-chat-quote" style="margin:0; color:white;"> 15</button>
+                </div>
+            </div>
+            <!--sport container-->
+            <div class="sport2 cont-as-3 d-flex flex-column" style="width:50vh; height:50vh">
+                <h1 class="sub-head" style="color:white; opacity:1">SPORT</h1>
+                <p class="para">It provides information about and recent updates.</p>
+                <div class=" d-flex flex-row">
+                    <button class="like bi bi-heart">150</button>
+                    <button class="like bi bi-chat-quote" style="margin:0"> 15</button>
+                </div>
+            </div>
+        </div>
+
+<!--3rd grid layout-->
+        <div class="cssportal-grid">
+            <!--profile container-->
+            <div class="d-flex flex-column" id="div1">
+                <h1 class="sub-head">NEW PROFILES</h1>
+                <div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/aa/29/51/aa29513a29196803f09d43ad017e77e1.jpg" width='65vw' height="70vh" style="margin:2vh; border-radius:50px; object-fit:fill;">
+                        <ul>
+                            <li style="position:relative;margin-top:2vh;" style="font-weight:bold;">George william</li>
+                            <li style="font-weight:normal;">new profile</li>
+                            <li style="font-weight:normal; width:50vh;">Follow to know their intrests.</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/f5/c0/e1/f5c0e15c070bfda966302550cdc307e6.jpg" width='65vw' height="70vh" style="margin:2vh; border-radius:50px; object-fit:fill;">
+                        <ul>
+                            <li style="position:relative;margin-top:2vh;" style="font-weight:bold;">Tina shan</li>
+                            <li style="font-weight:normal;">new profile</li>
+                            <li style="font-weight:normal; width:50vh;">Follow to know their intrests.</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/56/22/52/56225253b99453e47d2798790046e8b5.jpg" width='65vw' height="70vh" style="margin:2vh; border-radius:50px; object-fit:fill;">
+                        <ul>
+                            <li style="position:relative;margin-top:2vh;" style="font-weight:bold;">Winston</li>
+                            <li style="font-weight:normal;">new profile</li>
+                            <li style="font-weight:normal; width:25vh;">Follow to know their intrests.</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/aa/06/d7/aa06d77cd048b867f5d0b40362e62a76.jpg" width='50vw' height="70vh" style="margin:2vh; border-radius:50px; object-fit:fill;">
+                        <ul>
+                            <li style="position:relative;margin-top:2vh;" style="font-weight:bold;">Robert</li>
+                            <li style="font-weight:normal;">new profile</li>
+                            <li style="font-weight:normal; width:50vh;">Follow to know their intrests.</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/736x/0d/25/69/0d2569fa15d54f392b77c48adfc46d68.jpg" width='65vw' height="70vh" style="margin:2vh; border-radius:50px; object-fit:fill;">
+                        <ul>
+                            <li style="position:relative;margin-top:2vh;" style="font-weight:bold;">Sheyank</li>
+                            <li style="font-weight:normal;">new profile</li>
+                            <li style="font-weight:normal; width:50vh;">Follow to know their intrests.</li>
+                        </ul>
+                    </div>
+                </div>       
+            </div>
+
+            <!--videos container-->
+            <div class="flow d-flex flex-row" id="div2">
+                <h1 class="sub-head" style="position:static;">VIDEOS</h1>
+                <div >
+                    <img src="https://i.pinimg.com/564x/d5/ea/51/d5ea51e35b21f740c33d2e2a227dfd61.jpg" class="images">
+                    <p class="video-caption">India vs Australia match</p>
+                </div>
+                <div >
+                    <img src="https://i.pinimg.com/564x/29/1d/aa/291daab86e5b36d806381740c8a0dbe3.jpg" class="images">
+                    <p class="video-caption">Bollywood movies list</p>
+                </div>
+                <div >
+                    <img src="https://i.pinimg.com/564x/72/75/5e/72755e998eb22a38999611e8eff8d11f.jpg" class="images">
+                    <p class="video-caption">Travelling videos</p>
+                </div>
+            </div>
+            
+            <!--top stories container-->
+            <div id="div3">
+                <div class=" cont-as-2 d-flex flex-column">
+                    <h1 class="sub-head" style="opacity:1">TOP STORIES</h1>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/36/65/86/366586b3ea5dd56f8fc6300a3afc554a.jpg" width="80vw" height='90vh' style="margin:2vh;">
+                        <p class="para" style="position:relative; margin-top:3vh; width:25vh;">Shows the top stories of the categories.</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/58/01/49/5801497c5480ee44d204408aa5282ff4.jpg" width="80vw" height='90vh' style="margin:2vh;">
+                        <p class="para" style="position:relative; margin-top:3vh; width:25vh;">Shows the top stories of the categories.</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/c8/ab/e3/c8abe35a14493db44720113a51212aca.jpg" width="80vw" height='90vh' style="margin:2vh;">
+                        <p class="para" style="position:relative; margin-top:3vh; width:25vh;">Shows the top stories of the categories.</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/736x/5b/ac/02/5bac02a523df792c7e4e2fa6be49c354.jpg" width="80vw" height='90vh' style="margin:2vh;">
+                        <p class="para" style="position:relative; margin-top:3vh; width:25vh;">Shows the top stories of the categories.</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/69/73/89/697389205c5ab1cafec34aaef2f8aed5.jpg" width="80vw" height='90vh' style="margin:2vh;">
+                        <p class="para" style="position:relative; margin-top:3vh; width:25vh;">Shows the top stories of the categories.</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/736x/a7/70/4e/a7704e201479cb0a7e8e4b3b29b19f39.jpg" width="80vw" height='90vh' style="margin:2vh;">
+                        <p class="para" style="position:relative; margin-top:3vh; width:25vh;">Shows the top stories of the categories.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--fashion container-->
+            <div class="fasion" id="div4">
+                <div class="d-flex flex-column">
+                    <h1 class="sub-head">FASHION</h1>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/53/8b/9d/538b9da3c0001a98e956cf7b2ebfa8ab.jpg" alt="fashion-img" width=30% height="300vh" style="margin-left:2vh;">
+                        <p class="para-layout">Stepping into comfort: cloth trends to watch out for. <br><span style="font-size:20px;">Everything that's trending in fashion this season</span></p>
+                    </div>  
+                </div>
+            </div>
+
+            <!--shop container-->
+            <div id="div5">
+                <h1 class="sub-head">SHOP</h1>
+               <img src="https://preview.colorlib.com/theme/quitelight/images/sidebar_2_400X600.jpg" height=300vh width=359vh style="margin:2vh;">  
+            </div>
+        </div>
+    </div>
+    
+<!--footer container-->
+    <footer style="text-align:center; color:white;background-color:black; height:5vh; width:auto; padding:0.5vh;">
+        <p>&copy; 2024 ScoopSpot.com</p>
+    </footer>
+</body>
+</html>
