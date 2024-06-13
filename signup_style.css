@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.body-cont2{
+    background-image:url("https://anyimage.io/storage/uploads/51c0b0d65a45aeaf5c2288b6ec19c29d");
+    display:flex;
+    align-items:center;
+    margin:auto;
+    width:auto;
+    height:100%;
+    justify-content:center;
+    background-size: cover;
+}
+.container{
+    background-size:cover;
+    border:none;
+    border-radius: 20px;
+    height:85vh;
+    width:70vh;
+    margin:11vh;
+    display:flex;
+    padding:3vh;
+    flex-direction: column;
+    transition:0.3s ease-in-out;
+    align-items:center;
+    justify-content:center;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.container:hover{
+    box-shadow:0 0px 32px 0 rgba(86, 241, 241, 0.565) ;
+}
+
+
+.signup{
+    font-size:4.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:1vh;
+    margin:1vh;
+    color:cornsilk
+}
+.input-box{
+    width:100vh; 
+    margin:5px;
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:rgba(226, 226, 226, 0.925);
+    padding:0.5vh;
+}
+.total{
+    padding:2vh;
+}
+.total .input-box{
+ 
+  width: 420px;
+  position:relative;
+}
+
+.input-box input{
+    padding:20px 20px 20px 20px;
+    width:80%;
+    height:40px;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:white;
+    border:2px solid rgba(248, 248, 248, 0.512);
+    border-top-left-radius:40px;
+    border-bottom-left-radius:40px;
+    border-top-right-radius:20px;
+    font-size:15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input::placeholder{
+    font-family:Arial, Helvetica, sans-serif;
+    width:100vh;
+    color:antiquewhite;
+    opacity:0.7;
+}
+box-icon{
+    color:white;
+    background-color: white;
+    border-radius:10px;
+}
+.input-box box-icon{
+    position:absolute;
+    top:6vh;
+    right:5vh;
+    transform:translate(-50%);
+    color:white;
+}
+.title{
+    padding:5px 1vh;
+}
+.buttonss{
+    background-color:#ffffff;
+    width:42vh;
+    border:1px solid black;
+    color:black;
+    font-weight:bold;
+    height:5vh;
+    border-radius:25px;
+    margin-left:1vh;
+    transition: 0.3s ease-in-out;
+}
+.buttonss:hover{
+    background-color:darkorange;
+    color:black;
+}
+.back{
+    font-size:20px;
+    margin-left:25vh;
+    text-decoration:normal;
+    color:white;
+    position:relative;
+    margin-top:20vh;
+}
