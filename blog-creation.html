@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog-creation.css">
+  
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Blog</title>
+</head>
+<body>
+    <div class="header-">
+        <header>Create blog</header>
+        <button href="index.html" class="btn">Back</button>
+    <hr>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <form action="" class="form-align">
+                    <label for="TITLE">TITLE</label>
+                    <input type="text" id="text" placeholder="Add a title" style="width:100%;" required>
+
+                    <label for="description">DESCRIPTION</label>
+                    <textarea  placeholder="Add a detailed description" class="description" style="width:100%; height:15vh;" required></textarea>
+
+                    <label for="link">LINK</label>
+                    <input type="text" id="link" placeholder="Add a link" style="width:100%;" required>
+
+                    <label for="address">ADDRESS</label>
+                    <input type="text" placeholder="Add address" style="width:100%;" required> 
+                    
+                    <div class="checkboxes">
+                        <input type="checkbox">Allow people to comment
+                    </div>
+                    <div class="checkboxes" style="padding-top:0">
+                        <input type="checkbox">Show similar blogs
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="rightcolumn ">
+            <div class="card ">
+                    <img src="https://anyimage.io/storage/uploads/d5923cbdf9b7abc764face410e285aba" alt="image" width="150px" height="150px" class="image">
+                    <div class="profile-image"></div>
+                    <p style="margin-left:4vh;">Profile photo</p>
+                    <label for="images" class="drop-container" id="dropcontainer">
+                        <span class="drop-title">Drop files here</span>
+                        or
+                        <input type="file" id="images" accept="image/*" required>
+                        Max: 2MB
+                    </label>
+                    <button class="btn" style="width:40vh; position:relative; top:2vh; height:7vh; left:2vh;">Create</button>
+                    </div>
+                    
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
